@@ -54,8 +54,8 @@ Enabling AutoRCM
 .. raw:: html
 
     <div class="admonition danger" style="color:#C42525" align="center">
-		<h1 style="margin-bottom:0.5rem;margin-top:0.5rem;font-size:2.5rem">WARNING</h1>
-        <h2>Never enable AutoRCM on an IPATCHED Switch</h2>
+		<h1 style="margin-bottom:0.5rem;margin-top:0.5rem;font-size:2.5rem">WARNING!</h1>
+        <h2>Never enable AutoRCM on an IPATCHED Switch!</h2>
         <p>This section is only intended to be used on consoles with a vulnerable RCM. Enabling AutoRCM on an IPATCHED Switch will <b>literally BRICK your Switch.</b>
         <h2 style="margin-bottom:0.5rem">If you cannot run payloads from RCM with fusee-gelee, <b>DO NOT ENABLE AUTORCM.</b></h2>
         <h2>Failure to heed this warning <b>will</b> result in a bricked Switch.</h2>
@@ -74,11 +74,11 @@ You can disable AutoRCM by entering the same menu above and selecting 'Disable A
 From now on, to boot into stock firmware, select **'Launch > Stock'** in Hekate.
 
 .. warning::
-    Shutting down the Switch from custom firmwares other than Atmosphere after booting with AutoRCM **will not turn off the Switch!** You must choose **'Power Off'** from Hekate to properly shutdown the Switch. Not doing so will leave your Switch in RCM, slowing draining battery.
+    Shutting down the Switch from custom firmwares other than Atmosphere after booting with AutoRCM **will not turn off the Switch!** You must choose **'Power Off'** from Hekate to properly shutdown the Switch. Not doing so will leave your Switch in RCM, slowly draining battery.
     
 ........
 
-Step 1: Backing up your NAND and BIS keys
+Backing up your NAND and BIS keys
 -----------------------------------------
 
 By backing up your NAND (the Switch's internal memory), you will later be able to restore it in the event that anything goes wrong, essentially rewinding it back to a previous state. BIS keys are also good to backup so you can reinstall any firmware version manually should your NAND backup become corrupted or lost.
