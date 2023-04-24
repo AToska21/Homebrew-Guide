@@ -12,7 +12,7 @@ All custom firmware bypasses these fuse checks and the fuse burns. By enabling A
 
 You can also use this guide as a way to upgrade your Switch if your Switch does not have access to the internet, uses 90DNS or is superbanned, and to downgrade your Switch to any firmware version.
 
-If you want to prevent fuse burns you can follow `this guide first </hekate.html#enabling-autorcm>`_.
+If you want to prevent fuse burns you can follow `this guide first </usingcfw/hekate.rst#enabling-autorcm>`_.
 
 .. note:: 
    If something goes wrong or you need help, check `troubleshooting </troubleshooting.html>`_.
